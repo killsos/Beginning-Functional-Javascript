@@ -1,0 +1,29 @@
+{
+  "name": "functional-javascript",
+  "version": "1.0.0",
+  "description": "函数编程入门经典",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killsos/Beginning-Functional-Javascript.git"
+  },
+  "author": "qinlei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killsos/Beginning-Functional-Javascript/issues"
+  },
+  "homepage": "https://github.com/killsos/Beginning-Functional-Javascript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel": "^6.23.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
+    "@babel/plugin-syntax-pipeline-operator": "^7.8.3"
+  }
+}
